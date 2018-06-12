@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [SA_JenkinsTestSuite]">
+  <test verbose="0" name="SA_JSlogin(failed)">
+    <classes>
+      <class name="JSLoginTestCases.VerifyInvalidJSLogin">
+        <methods>
+          <include name="LoadDriver"/>
+          <include name="CloseBrowser"/>
+          <include name="InvalidLoginsJS" invocation-numbers="1"/>
+          <include name="LoadProperties"/>
+        </methods>
+      </class> <!-- JSLoginTestCases.VerifyInvalidJSLogin -->
+    </classes>
+  </test> <!-- SA_JSlogin(failed) -->
+</suite> <!-- Failed suite [SA_JenkinsTestSuite] -->
