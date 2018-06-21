@@ -35,7 +35,7 @@
     <groupId>org.testng</groupId>
     <artifactId>testng</artifactId>
     <version>6.13.1</version>
-    <scope>test</scope>
+    <scope>compile</scope>
 </dependency>
 
 <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
